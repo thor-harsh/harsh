@@ -19,7 +19,7 @@ ckeditor = CKEditor(app)
 Bootstrap(app)
 login_manager.init_app(app)
 gravatar = Gravatar(app)
-
+ckeditor = CKEditor(app)
 
 #Takes the user id and give it a callback by returning a user object
 @login_manager.user_loader
