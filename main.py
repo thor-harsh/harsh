@@ -14,7 +14,7 @@ from functools import wraps
 login_manager=LoginManager()
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+app.config['SECRET_KEY'] = "JULK"
 ckeditor = CKEditor(app)
 Bootstrap(app)
 login_manager.init_app(app)
